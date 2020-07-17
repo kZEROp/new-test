@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+    <title>Home</title>
+	<link rel="stylesheet" href="css/home.css">
+	<link rel="stylesheet" href="css/navbar.css">
+	<link rel="stylesheet" href="css/bttop.css">
+	<link rel="stylesheet" href="css/l&dswitch.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/describe.css">
+</head>
+
+<body>
+	<div class="nav">
+		<a href="pc.html">PC</a>
+		<a href="ns.html">Nintendo Switch</a>
+		<a href="xbox.html">Xbox</a>
+		<a href="ps.html">Playstation</a>
+		<div class="nav1">
+		<a href="https://www.facebook.com/">
+		<img src="image/fb.png" alt="facebook"/>
+		</a>
+		<a href="https://www.twitter.com/" >
+		<img src="image/tt.png" alt="twitter"/>
+		</a>
+		<a href="https://www.google.com/" >
+		<img src="image/gg.png" alt="google blog"/>
+		</a></div>
+		<div class="nav-center">
+		<a href="home.html">K Y B</a>	
+		</div>
+	</div>
+	<br/><br/><br/>
+	<div class="slideshow">
+		<div class="slides fade">
+			<a href="tlou2.html">
+			<img src="image/tlou2/tlou2.jpg" style="width:100%" alt="The Last Of Us 2" title="The Last Of Us 2">
+			<div class="text">Players are angry at TLOU 2's plot(Spoiler Alert)</div>
+			</a>
+		</div>
+
+		<div class="slides fade">
+			<a href="Cyberpunk.html">
+			<img src="image/cyberpunk/cyberpunk.jpeg" style="width:100%" alt="CyberPunk 2077" title="Cyberpunk 2077">
+			<div class="text">Cyberpunk is delayed to this year November</div>
+			</a>
+		</div>
+		
+		<div class="slides fade">
+			<a href="LWN.html">
+			<img src="image/LWN/LWn.png" style="width:100%" alt="Little Witch Nobeta" title="Little Witch Nobeta">
+			<div class="text">Review for Little Witch Nobeta(early access)</div>
+			</a>
+		</div>
+
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+	</div>
+
+	<div style="text-align:center">
+		<span class="dot" onclick="currentslide(1)"></span>
+		<span class="dot" onclick="currentslide(2)"></span>
+		<span class="dot" onclick="currentslide(3)"></span>
+	</div>
+
+	<button onclick="topFunction()" id="bttop" title="back to top"><i class="fa fa-chevron-up"></i></button>
+	<button onclick="ld()" id="ld" title="light & dark mode switch"><i class="fa fa-moon-o"></i></button>
+	<br/><br/>
+	<br/><br/>
+	
+	<table id="content">
+		<tr>
+			<td><a href="lol.html"><img src="" style="width:300px;height:150px"/></a></td>	
+			<td><dl>
+				<dt>Article</dt>
+				<dd></dd>
+				<a id="lol" name="lol" href="lol.html"target="_blank">League of Legends</a>
+				</dl>
+			</td>   
+		</tr>
+		<tr>
+			<td><a href="lol.html" class="title"><strong>Cyberpunk 2077 is delayed to this year November</strong></a></td>
+			<td><a href="lol.html" class="title"><strong>Players are angry at TLOU2's plot</strong></a></td>
+			<td><a href="lol.html" class="title"><strong></strong></a></td>
+		</tr>
+	</table>
+
+	<footer id="foot">
+		<a href="contact.html" id="cu">Contact Us</a>
+		<a href="about.html" id="au">About Us</a>
+		<br/><br/><hr/>
+		<p id="x">© 2020 K Y B. All Rights Reserved.</p>
+	</footer>
+
+	<script src="javascript/slideshow.js"></script>
+	<script src="javascript/bttop.js"></script>
+	<script src="javascript/ld.js"></script>
+</body>
+
+</html>
